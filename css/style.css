@@ -297,7 +297,7 @@ padding-top:20px ;
 padding-bottom:20px ;
 color:white ;
 }
-@media screen and (max-width:426px) {
+@media screen and (max-width:461px) {
     .header{
         width: 100vw;
         background-color:#e8e8e8 ;
