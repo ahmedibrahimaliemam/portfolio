@@ -38,6 +38,23 @@ display: flex;
     list-style: none;
     
 }
+.project-item a{
+    display: block;
+
+}
+.project-item a button{
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
 .nav li a{
     display:block ;
     padding:10px 15px ;
@@ -303,9 +320,10 @@ color:white ;
         background-color:#e8e8e8 ;
         height:100vh ;
         background-image:url("../images/ahmed.jpg");
-        background-position: center center;
+        background-position: -255px center;
         background-size: cover;
         position:relative ;
+        background-repeat: no-repeat;
         background-attachment: fixed ;
     }
     .header-section{
