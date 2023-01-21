@@ -1,7 +1,29 @@
+//declear a variables of navbar items
 let services=document.getElementById("services") ;
 let projects=document.getElementById("projects") ;
 let contact=document.getElementById("contact") ;
 let logo=document.getElementsByClassName("name") ;
+//declear a variables of projects item
+let item_zero=document.getElementById("item-zero") ;
+let item_one=document.getElementById("item-one") ;
+let item_two=document.getElementById("item-two") ;
+let item_three=document.getElementById("item-three") ;
+let item_four=document.getElementById("item-four") ;
+let item_five=document.getElementById("item-five") ;
+//events of projects
+item_zero.onclick=function(){
+    window.location="https://ahmedibrahimaliemam.github.io/E-commerce/" ;
+}
+item_one.onclick=function(){
+window.location="https://ahmedibrahimaliemam.github.io/System-CRUDS-/" ;
+}
+item_two.onclick=function(){
+    window.location="https://ahmedibrahimaliemam.github.io/game-oop-js/" ;
+}
+item_three.onclick=function(){
+    window.location="https://ahmedibrahimaliemam.github.io/templatehtml-css/" ;
+}
+//end events of projects
 logo.onclick=function(){
     window.scrollTo({
         top: 0 , 
