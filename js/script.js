@@ -23,6 +23,9 @@ item_two.onclick=function(){
 item_three.onclick=function(){
     window.location="https://ahmedibrahimaliemam.github.io/templatehtml-css/" ;
 }
+item_four.onclick=()=>{
+    window.location="https://react-e-commerce-app5.netlify.app" ;
+}
 //end events of projects
 logo.onclick=function(){
     window.scrollTo({

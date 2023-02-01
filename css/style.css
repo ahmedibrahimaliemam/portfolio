@@ -5,11 +5,17 @@
     box-sizing:border-box ;
     font-family: 'Poppins', sans-serif;
 }
+body{
+ max-width: 100vw;
+ min-height: 100vh;
+ overflow-x: hidden;
+
+}
 a{
     text-decoration:none ;
 }
 .header{
-    width:100vw ;
+    width:100% ;
     background-color:#e8e8e8 ;
     height:100vh ;
     background-image:url("../images/ahmed.jpg");
@@ -315,9 +321,8 @@ padding-bottom:20px ;
 color:white ;
 }
 @media (max-width:767px){
-   
     .header{
-        width: 100vw;
+        width: 100%;
         background-color:#e8e8e8 ;
         height:100vh ;
         background-image:url("../images/IMG_2883.JPG");
@@ -329,6 +334,7 @@ color:white ;
     }
 .header-section{
         text-align: center;
+        width: 100%;
     }
 .bar{
         display: flex;
