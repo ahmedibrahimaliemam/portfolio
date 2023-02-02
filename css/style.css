@@ -212,6 +212,7 @@ text-decoration: none;
     -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
     -o-transform: scale(1.01);
+    cursor: pointer;
 }
 .project-section{
     background-color: black;
