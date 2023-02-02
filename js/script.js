@@ -1,5 +1,5 @@
 //declear a variables of navbar items
-let services=document.getElementById("services") ;
+let skills=document.getElementById("skills") ;
 let projects=document.getElementById("projects") ;
 let contact=document.getElementById("contact") ;
 //declear a variables of projects item
@@ -11,9 +11,6 @@ let item_four=document.getElementById("item-four") ;
 let item_five=document.getElementById("item-five") ;
 let ahmed=document.querySelector(".name") ;
 //events of projects
-ahmed.onclick=()=>{
-
-}
 
 item_zero.onclick=function(){
     window.location="https://ahmedibrahimaliemam.github.io/E-commerce/" ;
@@ -31,24 +28,24 @@ item_four.onclick=()=>{
     window.location="https://react-e-commerce.surge.sh/" ;
 }
 //end events of projects
-console.log(services,projects,contact) ;
-services.onclick=function(){
+console.log(skills,projects,contact) ;
+skills.onclick=function(){
     window.scrollTo({
-        top: 640,
+        top: 650,
         left: 0,
         behavior: 'smooth'
       });
 }
 projects.onclick=function(){
     window.scrollTo({
-        top: 1351,
+        top: 1450,
         left: 0,
         behavior: 'smooth'
       });
 }
 contact.onclick=function(){
     window.scrollTo({
-        top: 2200,
+        top: 10000,
         left: 0,
         behavior: 'smooth'
       });
@@ -58,7 +55,7 @@ document.addEventListener("DOMContentLoaded" ,init) ;
 function init(){
     let query=window.matchMedia("(max-width:767px)") ;
     if(query.matches){
-        services.onclick=function(){
+        skills.onclick=function(){
             window.scrollTo({
                 top: 850,
                 left: 0,
@@ -67,14 +64,14 @@ function init(){
         }
         projects.onclick=function(){
             window.scrollTo({
-                top: 2250,
+                top: 2800,
                 left: 0,
                 behavior: 'smooth'
               });
         }
         contact.onclick=function(){
             window.scrollTo({
-                top: 4500,
+                top: 10000,
                 left: 0,
                 behavior: 'smooth'
               });
