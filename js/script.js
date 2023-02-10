@@ -27,6 +27,9 @@ item_three.onclick=function(){
 item_four.onclick=()=>{
     window.location="https://react-e-commerce.surge.sh/" ;
 }
+item_five.onclick=()=>{
+    window.location="https://ahmed-ali-landing-page.surge.sh/" ;
+}
 //end events of projects
 console.log(skills,projects,contact) ;
 skills.onclick=function(){
