@@ -22,7 +22,7 @@ item_two.onclick=function(){
     window.location="https://ahmedibrahimaliemam.github.io/game-oop-js/" ;
 }
 item_three.onclick=function(){
-    window.location="https://ahmedibrahimaliemam.github.io/templatehtml-css/" ;
+    window.location="https://ahmed-ali-shopping-cart.surge.sh/" ;
 }
 item_four.onclick=()=>{
     window.location="https://react-e-commerce.surge.sh/" ;
